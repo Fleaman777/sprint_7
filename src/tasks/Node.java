@@ -1,4 +1,4 @@
-import taskmanager.tasks.Task;
+import tasks.Task;
 
 class Node {
     Task task;

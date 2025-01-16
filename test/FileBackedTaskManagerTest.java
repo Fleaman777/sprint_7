@@ -1,11 +1,10 @@
 package taskmanager.test;
 
 import org.junit.jupiter.api.Disabled;
-import taskmanager.managers.FileBackedTaskManager;
-import taskmanager.tasks.Task;
-import taskmanager.tasks.Epic;
-import taskmanager.tasks.Subtask;
-import taskmanager.tasks.TaskStatus;
+import managers.FileBackedTaskManager;
+import tasks.Task;
+import tasks.Epic;
+import tasks.Subtask;
 
 import org.junit.jupiter.api.Test;
 import java.io.File;

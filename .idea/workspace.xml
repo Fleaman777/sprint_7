@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad346db1-9856-4181-a171-d8d61e5a3d79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-kanban.iml" afterDir="false" />
+    <list default="true" id="ad346db1-9856-4181-a171-d8d61e5a3d79" name="Changes" comment="addit files">
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/Test/FileBackedTaskManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/Test/InMemoryTaskManagerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/managers/FileBackedTaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/FileBackedTaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/managers/HistoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/HistoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/managers/InMemoryHistoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/InMemoryHistoryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/managers/InMemoryTaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/InMemoryTaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/managers/ManagerSaveException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/ManagerSaveException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/managers/Managers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/Managers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/managers/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/managers/TaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/tasks/Epic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Epic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/tasks/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/tasks/Subtask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Subtask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/tasks/TaskStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/TaskStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskmanager/tasks/TaskType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/TaskType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +55,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -66,6 +81,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
@@ -96,8 +112,8 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.InMemoryTaskManagerTest.testPreviousVersionInHistory">
-    <configuration name="FileBackedTaskManagerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sprint_6-solution" />
+    <configuration name="FileBackedTaskManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskManager" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="taskmanager.test.*" />
@@ -112,7 +128,7 @@
       </method>
     </configuration>
     <configuration name="FileBackedTaskManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TaskManager" />
+      <module name="sprint_6-solution" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="taskmanager.test.*" />
@@ -193,6 +209,23 @@
       <updated>1733507664718</updated>
       <workItem from="1737052468678" duration="891000" />
     </task>
+    <task id="LOCAL-00001" summary="addit files">
+      <option name="closed" value="true" />
+      <created>1737054539611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737054539611</updated>
+    </task>
+    <task id="LOCAL-00002" summary="addit files">
+      <option name="closed" value="true" />
+      <created>1737054591538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737054591538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,28 +271,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix fix" />
+    <MESSAGE value="addit files" />
+    <option name="LAST_COMMIT_MESSAGE" value="addit files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/taskmanager/Test/FileBackedTaskManagerTest.java</url>
+          <url>file://$PROJECT_DIR$/src/Test/FileBackedTaskManagerTest.java</url>
           <line>25</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/taskmanager/managers/FileBackedTaskManager.java</url>
+          <url>file://$PROJECT_DIR$/src/managers/FileBackedTaskManager.java</url>
           <line>32</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/taskmanager/managers/InMemoryTaskManager.java</url>
+          <url>file://$PROJECT_DIR$/src/managers/InMemoryTaskManager.java</url>
           <line>102</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/taskmanager/managers/FileBackedTaskManager.java</url>
+          <url>file://$PROJECT_DIR$/src/managers/FileBackedTaskManager.java</url>
           <line>137</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>

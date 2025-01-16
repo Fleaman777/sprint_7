@@ -1,15 +1,13 @@
 package taskmanager.test;
 
-import org.junit.jupiter.api.Disabled;
-import org.testng.annotations.Ignore;
-import taskmanager.managers.InMemoryTaskManager;
-import taskmanager.managers.TaskManager;
-import taskmanager.tasks.Task;
-import taskmanager.tasks.Epic;
-import taskmanager.tasks.Subtask;
-import taskmanager.tasks.TaskStatus;
-import taskmanager.managers.HistoryManager;
-import taskmanager.managers.Managers;
+import managers.InMemoryTaskManager;
+import managers.TaskManager;
+import tasks.Task;
+import tasks.Epic;
+import tasks.Subtask;
+import tasks.TaskStatus;
+import managers.HistoryManager;
+import managers.Managers;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

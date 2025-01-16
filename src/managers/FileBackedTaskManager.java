@@ -1,6 +1,6 @@
-package taskmanager.managers;
+package managers;
 
-import taskmanager.tasks.*;
+import tasks.*;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
